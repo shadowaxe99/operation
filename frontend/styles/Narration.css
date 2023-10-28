@@ -1,0 +1,21 @@
+#narration {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+#narration.hidden {
+    transform: translateY(100%);
+}
+
+#narration p {
+    margin: 0;
+    line-height: 1.5;
+}

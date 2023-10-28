@@ -1,0 +1,14 @@
+#score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #FF4500;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#score span {
+    margin-left: 10px;
+    color: #000;
+}
